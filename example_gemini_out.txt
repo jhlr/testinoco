@@ -1,0 +1,24 @@
+{
+	"reasoning_steps": [{
+		"step": 1,
+		"observation": "The image shows a person drinking directly from a green glass bottle.",
+		"evidence": "Visual inspection of the main image."
+	}, {
+		"step": 2,
+		"observation": "The bottle has a prominent label that is mostly blue and white with some red.",
+		"evidence": "Visual inspection of the bottle in the main image and crops, particularly the first crop."
+	}, {
+		"step": 3,
+		"observation": "On the label, the word 'Heineken' is clearly visible in white lettering against a blue background, along with the '0.0' designation.",
+		"evidence": "Reading the text on the bottle label. The 'Heineken' logo and '0.0' are clearly discernible in the main image and especially in the first crop."
+	}, {
+		"step": 4,
+		"observation": "Heineken 0.0 is a non-alcoholic beer produced by Heineken.",
+		"evidence": "General knowledge about the Heineken brand and its product line, confirmed by the label text."
+	}, {
+		"step": 5,
+		"observation": "The person's mouth is on the bottle opening, indicating they are drinking from it.",
+		"evidence": "Visual inspection of the person's posture and the bottle's position relative to their mouth."
+	}],
+	"conclusion": "yes"
+}
